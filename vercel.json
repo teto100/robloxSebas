@@ -1,6 +1,15 @@
 {
-  "buildCommand": "cd guia-web && npm install && npm run build",
-  "outputDirectory": "guia-web/.next",
-  "framework": "nextjs",
-  "installCommand": "cd guia-web && npm install"
+  "version": 2,
+  "builds": [
+    {
+      "src": "guia-web/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "guia-web/$1"
+    }
+  ]
 }
