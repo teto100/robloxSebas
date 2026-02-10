@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd guia-web && npm install && npm run build",
+  "outputDirectory": "guia-web/.next",
+  "framework": "nextjs",
+  "installCommand": "cd guia-web && npm install"
+}
