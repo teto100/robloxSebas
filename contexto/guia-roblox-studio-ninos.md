@@ -109,12 +109,19 @@ Las Parts son los bloques de construcción básicos en Roblox. Como piezas de LE
 
 **Herramienta Mover (Move) - La más importante:**
 
+**IMPORTANTE:** Si no ves las flechas de colores, presiona **Ctrl + 2** para activar Move.
+
 1. Selecciona cualquier Part haciendo clic en ella
-2. Por defecto, la herramienta Move ya está activa
+2. Presiona **Ctrl + 2** para activar la herramienta Move
 3. Verás aparecer **3 flechas de colores** en el objeto:
    - **Flecha ROJA**: Mueve en el eje X (izquierda/derecha)
    - **Flecha VERDE**: Mueve en el eje Y (arriba/abajo)
    - **Flecha AZUL**: Mueve en el eje Z (adelante/atrás)
+
+**Si NO ves las flechas:**
+- Verifica que el objeto esté seleccionado (borde azul)
+- Presiona **Ctrl + 2** de nuevo
+- Las flechas deben aparecer inmediatamente
 
 4. **Cómo mover:**
    - Haz clic en una flecha y arrastra (mantén presionado el clic)

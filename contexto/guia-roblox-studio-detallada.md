@@ -299,17 +299,25 @@ Vamos a crear una exhibición de todas las formas básicas:
 La herramienta Move te permite cambiar la posición de los objetos en el espacio 3D.
 
 **Activar la herramienta:**
-- Método 1: Está activa por defecto al seleccionar un objeto
-- Método 2: Presiona **Ctrl + 2**
-- Método 3: Clic en el icono Move en la barra superior (Home tab)
+
+**IMPORTANTE:** Las flechas de colores solo aparecen cuando la herramienta Move está activa.
+
+- Método 1: Presiona **Ctrl + 2**
+- Método 2: Clic en el icono **Move** en la barra superior (Home tab, parece una cruz con flechas)
+- Método 3: A veces está activa por defecto, pero si no ves las flechas, usa Ctrl + 2
 
 **Entender las flechas de colores:**
 
-Cuando seleccionas un objeto con Move activo, verás 3 flechas:
+Cuando seleccionas un objeto CON Move activo, verás 3 flechas:
 
 - **Flecha ROJA**: Mueve en el eje X (izquierda ↔ derecha)
 - **Flecha VERDE**: Mueve en el eje Y (abajo ↕ arriba)
 - **Flecha AZUL**: Mueve en el eje Z (adelante ↔ atrás)
+
+**Si NO ves las flechas:**
+1. Verifica que el objeto esté seleccionado (borde azul)
+2. Presiona **Ctrl + 2** para activar Move
+3. Las flechas deben aparecer inmediatamente
 
 **Cómo usar Move:**
 
