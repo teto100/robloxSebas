@@ -65,47 +65,47 @@ En la pantalla de inicio verás varias opciones:
 
 Cuando se abra tu proyecto, verás varias secciones:
 
-**1. Viewport (Centro - La pantalla grande):**
+**1. Ventana de visualización (Centro - La pantalla grande):**
 - Es tu mundo 3D donde construyes
 - Aquí verás todo lo que creas
 - Puedes moverte libremente por este espacio
 
 **2. Barra de Herramientas Superior:**
-- **Home**: Herramientas básicas (Part, Terrain, etc.)
-- **Model**: Herramientas de modelado avanzadas
+- **Inicio**: Herramientas básicas (Part, Terreno, etc.)
+- **Modelo**: Herramientas de modelado avanzadas
 - **Avatar**: Configurar personajes
-- **Test**: Probar tu juego
-- **View**: Mostrar/ocultar ventanas
-- **Plugins**: Extensiones adicionales
+- **Prueba**: Probar tu juego
+- **Vista**: Mostrar/ocultar ventanas
+- **Complementos**: Extensiones adicionales
 
-**3. Explorer (Derecha):**
+**3. Explorador (Derecha):**
 - Lista jerárquica de todos los objetos en tu juego
 - Organizado como un árbol de carpetas
 - Elementos principales:
-  - **Workspace**: Donde están todos los objetos visibles del mundo
-  - **Players**: Información de jugadores
-  - **Lighting**: Configuración de luces y atmósfera
-  - **ReplicatedStorage**: Objetos compartidos
-  - **ServerScriptService**: Donde van tus scripts principales
-  - **StarterGui**: Interfaz de usuario (botones, textos en pantalla)
-  - **StarterPlayer**: Configuración del jugador
-  - **StarterPack**: Herramientas que el jugador tiene al inicio
+  - **Espacio de trabajo**: Donde están todos los objetos visibles del mundo
+  - **Jugadores**: Información de jugadores
+  - **Iluminación**: Configuración de luces y atmósfera
+  - **Almacenamiento replicado**: Objetos compartidos
+  - **Servicio de scripts del servidor**: Donde van tus scripts principales
+  - **Interfaz inicial**: Interfaz de usuario (botones, textos en pantalla)
+  - **Jugador inicial**: Configuración del jugador
+  - **Paquete inicial**: Herramientas que el jugador tiene al inicio
 
-**4. Properties (Derecha abajo):**
+**4. Propiedades (Derecha abajo):**
 - Muestra todas las propiedades del objeto seleccionado
 - Aquí cambias colores, tamaños, nombres, etc.
 - Se actualiza según lo que selecciones
 
-**5. Toolbox (Abajo):**
-- Biblioteca de modelos, imágenes, audio y plugins
+**5. Caja de herramientas (Abajo):**
+- Biblioteca de modelos, imágenes, audio y complementos
 - Contenido creado por Roblox y la comunidad
 - Puedes buscar y añadir recursos gratis
 
-**6. Output (Abajo, puede estar oculta):**
+**6. Salida (Abajo, puede estar oculta):**
 - Muestra mensajes de tus scripts
 - Muestra errores si algo sale mal
 - Muy importante para programar
-- Abre con: View → Output
+- Abre con: Vista → Salida
 
 #### Controles de Cámara (¡MUY IMPORTANTE!)
 
@@ -127,10 +127,10 @@ Practica estos controles hasta que te sientas cómodo:
 
 **Atajos útiles:**
 - **F**: Enfocar el objeto seleccionado (muy útil si te pierdes)
-- **Ctrl + 1**: Activar herramienta Select (seleccionar)
-- **Ctrl + 2**: Activar herramienta Move (mover)
-- **Ctrl + 3**: Activar herramienta Scale (escalar)
-- **Ctrl + 4**: Activar herramienta Rotate (rotar)
+- **Ctrl + 1**: Activar herramienta Seleccionar
+- **Ctrl + 2**: Activar herramienta Mover
+- **Ctrl + 3**: Activar herramienta Escalar
+- **Ctrl + 4**: Activar herramienta Rotar
 
 #### ✏️ Ejercicio 1: Dominar la Navegación
 
@@ -144,7 +144,7 @@ Practica estos controles hasta que te sientas cómodo:
 6. Intenta moverte rápido con Shift + W
 7. Practica hasta que puedas moverte sin pensar en los controles
 
-**Consejo:** Si te pierdes, selecciona "Baseplate" en el Explorer y presiona F.
+**Consejo:** Si te pierdes, selecciona "Baseplate" en el Explorador y presiona F.
 
 ---
 
@@ -160,8 +160,8 @@ Las Parts son los bloques de construcción fundamentales en Roblox. Todo lo que 
 
 1. **Ubicar el botón Part:**
    - Mira la barra superior
-   - Busca la pestaña **"Home"** (debe estar seleccionada por defecto)
-   - En la sección "Insert", verás un botón gris que dice **"Part"**
+   - Busca la pestaña **"Inicio"** (debe estar seleccionada por defecto)
+   - En la sección "Insertar", verás un botón gris que dice **"Part"**
    - Tiene una pequeña flecha hacia abajo ▼ a su lado
 
 2. **Ver las opciones de Parts:**
@@ -170,15 +170,15 @@ Las Parts son los bloques de construcción fundamentales en Roblox. Todo lo que 
 
 **Tipos de Parts disponibles:**
 
-- **Block** 📦: Cubo/bloque rectangular (el más usado)
-- **Sphere** ⚽: Esfera perfecta (pelota)
-- **Cylinder** 🥫: Cilindro (como una lata)
-- **Wedge** 📐: Rampa triangular (para hacer rampas)
-- **CornerWedge** 📐: Esquina triangular (para techos)
-- **Part** 📦: Igual que Block (opción por defecto)
+- **Bloque** 📦: Cubo/bloque rectangular (el más usado)
+- **Esfera** ⚽: Esfera perfecta (pelota)
+- **Cilindro** 🥫: Cilindro (como una lata)
+- **Cuña** 📐: Rampa triangular (para hacer rampas)
+- **Cuña de esquina** 📐: Esquina triangular (para techos)
+- **Part** 📦: Igual que Bloque (opción por defecto)
 
-3. **Insertar un Block:**
-   - Haz clic en "Block"
+3. **Insertar un Bloque:**
+   - Haz clic en "Bloque"
    - Aparecerá un bloque gris en el centro de tu pantalla
    - Tiene un tamaño de 4x4x4 studs por defecto
 
@@ -202,12 +202,12 @@ Roblox usa un sistema de coordenadas 3D:
 - Verás un borde azul brillante alrededor del objeto seleccionado
 - Aparecerán flechas de colores (herramienta Move)
 
-**Método 2 - Desde el Explorer:**
-- Ve a la ventana Explorer (derecha)
-- Expande "Workspace" haciendo clic en la flecha ▶
+**Método 2 - Desde el Explorador:**
+- Ve a la ventana Explorador (derecha)
+- Expande "Espacio de trabajo" haciendo clic en la flecha ▶
 - Verás tu Part listada como "Part"
-- Haz clic en "Part" en el Explorer
-- El objeto se seleccionará en el Viewport
+- Haz clic en "Part" en el Explorador
+- El objeto se seleccionará en la ventana de visualización
 
 **Seleccionar múltiples objetos:**
 - Mantén presionado **Ctrl** (Windows) o **Cmd** (Mac)
@@ -220,12 +220,12 @@ Roblox usa un sistema de coordenadas 3D:
 Es muy importante dar nombres descriptivos a tus objetos para encontrarlos fácilmente después.
 
 1. Selecciona tu Part
-2. Mira la ventana **Properties** (abajo a la derecha)
-3. La primera propiedad es **"Name"**
+2. Mira la ventana **Propiedades** (abajo a la derecha)
+3. La primera propiedad es **"Nombre"**
 4. Haz clic en el campo donde dice "Part"
 5. Escribe un nombre descriptivo: "MiPrimerBloque"
 6. Presiona **Enter**
-7. El nombre cambiará en el Explorer
+7. El nombre cambiará en el Explorador
 
 **Reglas para nombres:**
 - No uses espacios (usa MayúsculasParaSeparar o guiones_bajos)
@@ -234,27 +234,27 @@ Es muy importante dar nombres descriptivos a tus objetos para encontrarlos fáci
 
 #### Propiedades Básicas de una Part
 
-Cuando seleccionas una Part, en Properties verás muchas opciones. Las más importantes son:
+Cuando seleccionas una Part, en Propiedades verás muchas opciones. Las más importantes son:
 
 **Propiedades de Identificación:**
-- **Name**: Nombre del objeto
-- **ClassName**: Tipo de objeto (Part, MeshPart, etc.)
+- **Nombre**: Nombre del objeto
+- **Nombre de clase**: Tipo de objeto (Part, MeshPart, etc.)
 
 **Propiedades de Transformación:**
-- **Position**: Ubicación en el mundo (X, Y, Z)
-- **Orientation**: Rotación en grados (X, Y, Z)
-- **Size**: Tamaño del objeto (X, Y, Z)
+- **Posición**: Ubicación en el mundo (X, Y, Z)
+- **Orientación**: Rotación en grados (X, Y, Z)
+- **Tamaño**: Tamaño del objeto (X, Y, Z)
 
 **Propiedades de Apariencia:**
 - **Color**: Color del objeto (selector de color)
-- **Material**: Material visual (Plastic, Wood, Metal, etc.)
-- **Transparency**: Transparencia (0 = sólido, 1 = invisible)
-- **Reflectance**: Qué tan reflectante es (0 a 1)
+- **Material**: Material visual (Plástico, Madera, Metal, etc.)
+- **Transparencia**: Transparencia (0 = sólido, 1 = invisible)
+- **Reflectancia**: Qué tan reflectante es (0 a 1)
 
 **Propiedades de Física:**
-- **Anchored**: Si está fijo o puede moverse con física
-- **CanCollide**: Si otros objetos pueden chocar con él
-- **Massless**: Si tiene masa o no afecta la física
+- **Anclado**: Si está fijo o puede moverse con física
+- **Puede colisionar**: Si otros objetos pueden chocar con él
+- **Sin masa**: Si tiene masa o no afecta la física
 
 #### ✏️ Ejercicio 2: Crear una Colección de Formas
 
@@ -263,47 +263,47 @@ Cuando seleccionas una Part, en Properties verás muchas opciones. Las más impo
 Vamos a crear una exhibición de todas las formas básicas:
 
 1. **Crear las formas:**
-   - Crea 1 Block
-   - Crea 1 Sphere
-   - Crea 1 Cylinder
-   - Crea 1 Wedge
-   - Crea 1 CornerWedge
+   - Crea 1 Bloque
+   - Crea 1 Esfera
+   - Crea 1 Cilindro
+   - Crea 1 Cuña
+   - Crea 1 Cuña de esquina
 
 2. **Renombrar cada una:**
-   - Selecciona el Block → Properties → Name: "Bloque1"
-   - Selecciona la Sphere → Name: "Esfera1"
-   - Selecciona el Cylinder → Name: "Cilindro1"
-   - Selecciona el Wedge → Name: "Rampa1"
-   - Selecciona el CornerWedge → Name: "Esquina1"
+   - Selecciona el Bloque → Propiedades → Nombre: "Bloque1"
+   - Selecciona la Esfera → Nombre: "Esfera1"
+   - Selecciona el Cilindro → Nombre: "Cilindro1"
+   - Selecciona la Cuña → Nombre: "Rampa1"
+   - Selecciona la Cuña de esquina → Nombre: "Esquina1"
 
 3. **Organizarlas en fila:**
-   - Usa la herramienta Move (las flechas de colores)
+   - Usa la herramienta Mover (las flechas de colores)
    - Coloca cada forma en fila sobre la plataforma verde
    - Deja espacio entre cada una (unos 6 studs)
 
-4. **Verificar en el Explorer:**
-   - Abre el Explorer
-   - Expande Workspace
+4. **Verificar en el Explorador:**
+   - Abre el Explorador
+   - Expande Espacio de trabajo
    - Deberías ver tus 5 objetos con sus nuevos nombres
 
-**Desafío extra:** Intenta crear una forma usando solo Wedges (como una pirámide).
+**Desafío extra:** Intenta crear una forma usando solo Cuñas (como una pirámide).
 
 ---
 
-### 📝 Paso 3: Herramientas de Transformación (Move, Scale, Rotate)
+### 📝 Paso 3: Herramientas de Transformación (Mover, Escalar, Rotar)
 
 **Objetivo:** Dominar las tres herramientas esenciales para manipular objetos.
 
-#### Herramienta 1: MOVE (Mover)
+#### Herramienta 1: MOVER
 
-La herramienta Move te permite cambiar la posición de los objetos en el espacio 3D.
+La herramienta Mover te permite cambiar la posición de los objetos en el espacio 3D.
 
 **Activar la herramienta:**
 
-**IMPORTANTE:** Las flechas de colores solo aparecen cuando la herramienta Move está activa.
+**IMPORTANTE:** Las flechas de colores solo aparecen cuando la herramienta Mover está activa.
 
 - Método 1: Presiona **Ctrl + 2**
-- Método 2: Clic en el icono **Move** en la barra superior (Home tab, parece una cruz con flechas)
+- Método 2: Clic en el icono **Mover** en la barra superior (pestaña Inicio, parece una cruz con flechas)
 - Método 3: A veces está activa por defecto, pero si no ves las flechas, usa Ctrl + 2
 
 **Entender las flechas de colores:**
@@ -316,10 +316,10 @@ Cuando seleccionas un objeto CON Move activo, verás 3 flechas:
 
 **Si NO ves las flechas:**
 1. Verifica que el objeto esté seleccionado (borde azul)
-2. Presiona **Ctrl + 2** para activar Move
+2. Presiona **Ctrl + 2** para activar Mover
 3. Las flechas deben aparecer inmediatamente
 
-**Cómo usar Move:**
+**Cómo usar Mover:**
 
 1. **Movimiento en un solo eje:**
    - Haz clic en una flecha de color
@@ -340,7 +340,7 @@ Cuando seleccionas un objeto CON Move activo, verás 3 flechas:
 
 **Configurar el incremento de movimiento:**
 
-En la parte superior verás "Move: 1"
+En la parte superior verás "Mover: 1"
 
 - Haz clic en el número para ver opciones
 - Opciones disponibles: 0.2, 0.5, 1, 2, 4, 5 studs
@@ -353,17 +353,17 @@ En la parte superior verás "Move: 1"
 - Ahora puedes mover con precisión total
 - Útil para posicionamiento exacto
 
-#### Herramienta 2: SCALE (Escalar/Cambiar Tamaño)
+#### Herramienta 2: ESCALAR (Cambiar Tamaño)
 
-La herramienta Scale te permite cambiar el tamaño de los objetos.
+La herramienta Escalar te permite cambiar el tamaño de los objetos.
 
 **Activar la herramienta:**
 - Método 1: Presiona **Ctrl + 3**
-- Método 2: Clic en el icono Scale en Home tab (parece una caja con flechas hacia afuera)
+- Método 2: Clic en el icono Escalar en pestaña Inicio (parece una caja con flechas hacia afuera)
 
-**Entender los controles de Scale:**
+**Entender los controles de Escalar:**
 
-Cuando activas Scale en un objeto, verás:
+Cuando activas Escalar en un objeto, verás:
 
 - **6 puntos blancos** en las esquinas (escalar proporcionalmente)
 - **6 caras de colores** en los lados (estirar en una dirección)
@@ -371,7 +371,7 @@ Cuando activas Scale en un objeto, verás:
   - Caras VERDES: Estirar en eje Y (alto)
   - Caras AZULES: Estirar en eje Z (profundidad)
 
-**Cómo usar Scale:**
+**Cómo usar Escalar:**
 
 1. **Escalar proporcionalmente (mantener forma):**
    - Arrastra cualquier **punto blanco** de las esquinas
@@ -385,14 +385,14 @@ Cuando activas Scale en un objeto, verás:
 
 3. **Escalar con números exactos:**
    - Selecciona el objeto
-   - Ve a Properties → **Size**
+   - Ve a Propiedades → **Tamaño**
    - Verás 3 números: X, Y, Z
    - Cambia los números manualmente
    - Ejemplo: Size (10, 1, 10) = plataforma plana de 10x10
 
 **Configurar el incremento de escala:**
 
-En la parte superior verás "Scale: 10%"
+En la parte superior verás "Escalar: 10%"
 
 - Opciones: 5%, 10%, 25%, 50%, 100%
 - 10% es bueno para ajustes precisos
@@ -403,23 +403,23 @@ En la parte superior verás "Scale: 10%"
 - Tamaño máximo: 2048 studs en cualquier dimensión
 - Si intentas exceder estos límites, Roblox lo impedirá
 
-#### Herramienta 3: ROTATE (Rotar/Girar)
+#### Herramienta 3: ROTAR (Girar)
 
-La herramienta Rotate te permite girar objetos en cualquier dirección.
+La herramienta Rotar te permite girar objetos en cualquier dirección.
 
 **Activar la herramienta:**
 - Método 1: Presiona **Ctrl + 4**
-- Método 2: Clic en el icono Rotate en Home tab (flecha circular)
+- Método 2: Clic en el icono Rotar en pestaña Inicio (flecha circular)
 
 **Entender los círculos de rotación:**
 
-Cuando activas Rotate, verás 3 círculos de colores:
+Cuando activas Rotar, verás 3 círculos de colores:
 
 - **Círculo ROJO**: Gira alrededor del eje X (como una rueda de carro)
 - **Círculo VERDE**: Gira alrededor del eje Y (como una puerta)
 - **Círculo AZUL**: Gira alrededor del eje Z (como un volante)
 
-**Cómo usar Rotate:**
+**Cómo usar Rotar:**
 
 1. **Rotación básica:**
    - Haz clic en un círculo de color
@@ -432,13 +432,13 @@ Cuando activas Rotate, verás 3 círculos de colores:
    - Arrastra para rotar libremente según la vista de la cámara
 
 3. **Rotar con números exactos:**
-   - Ve a Properties → **Orientation**
+   - Ve a Propiedades → **Orientación**
    - Cambia los valores X, Y, Z en grados
    - Ejemplo: (0, 90, 0) = girado 90° en el eje Y
 
 **Configurar el incremento de rotación:**
 
-En la parte superior verás "Rotate: 15°"
+En la parte superior verás "Rotar: 15°"
 
 - Opciones: 5°, 15°, 30°, 45°, 90°
 - **15°** (recomendado): Buen balance entre precisión y velocidad
@@ -454,10 +454,10 @@ En la parte superior verás "Rotate: 15°"
 Memoriza estos atajos para trabajar más rápido:
 
 **Herramientas:**
-- **Ctrl + 1**: Select (seleccionar)
-- **Ctrl + 2**: Move (mover)
-- **Ctrl + 3**: Scale (escalar)
-- **Ctrl + 4**: Rotate (rotar)
+- **Ctrl + 1**: Seleccionar
+- **Ctrl + 2**: Mover
+- **Ctrl + 3**: Escalar
+- **Ctrl + 4**: Rotar
 
 **Edición:**
 - **Ctrl + D**: Duplicar objeto seleccionado
@@ -487,50 +487,50 @@ Vamos a construir una casa simple usando las tres herramientas.
 
 **Parte 1: Las Paredes**
 
-1. Crea un Block
+1. Crea un Bloque
 2. Renómbralo: "ParedFrontal"
-3. Usa Scale para cambiar su tamaño:
-   - Properties → Size: (12, 8, 0.5)
+3. Usa Escalar para cambiar su tamaño:
+   - Propiedades → Tamaño: (12, 8, 0.5)
    - Esto crea una pared delgada y alta
-4. Usa Move para posicionarla
+4. Usa Mover para posicionarla
 5. Duplica la pared (Ctrl + D)
 6. Renombra: "ParedTrasera"
 7. Muévela hacia atrás (flecha azul) unos 12 studs
 8. Duplica de nuevo para crear "ParedIzquierda"
-9. Usa Rotate para girarla 90° (Orientation Y = 90)
+9. Usa Rotar para girarla 90° (Orientación Y = 90)
 10. Posiciónala en el lado izquierdo
 11. Duplica para crear "ParedDerecha"
 12. Posiciónala en el lado derecho
 
 **Parte 2: El Techo**
 
-1. Crea un nuevo Block
+1. Crea un nuevo Bloque
 2. Renómbralo: "Techo"
-3. Escala: Size (13, 0.5, 13)
+3. Escala: Tamaño (13, 0.5, 13)
 4. Muévelo arriba de las paredes (flecha verde)
 5. Centra sobre las paredes
 
 **Parte 3: El Piso**
 
-1. Crea un Block
+1. Crea un Bloque
 2. Renómbralo: "Piso"
-3. Escala: Size (12, 0.5, 12)
+3. Escala: Tamaño (12, 0.5, 12)
 4. Muévelo al nivel del suelo entre las paredes
 
 **Parte 4: La Puerta (Desafío)**
 
-1. Crea un Block
+1. Crea un Bloque
 2. Renómbralo: "Puerta"
-3. Escala: Size (3, 6, 0.3)
+3. Escala: Tamaño (3, 6, 0.3)
 4. Posiciónalo en la pared frontal
-5. Cambia su color en Properties → Color (elige marrón)
+5. Cambia su color en Propiedades → Color (elige marrón)
 6. Cambia Material a "Wood"
 
 **Parte 5: Columnas Decorativas**
 
-1. Crea un Cylinder
+1. Crea un Cilindro
 2. Renómbralo: "Columna1"
-3. Escala: Size (1, 8, 1)
+3. Escala: Tamaño (1, 8, 1)
 4. Posiciónalo al lado de la puerta
 5. Duplica para crear "Columna2"
 6. Posiciónala al otro lado de la puerta
@@ -541,14 +541,14 @@ Vamos a construir una casa simple usando las tres herramientas.
 - Presiona F5 para probar y caminar dentro de tu casa
 
 **Desafío extra:**
-- Añade ventanas (bloques con material Glass y Transparency 0.5)
-- Crea un techo inclinado usando Wedges
-- Añade una chimenea con Cylinders
+- Añade ventanas (bloques con material Cristal y Transparencia 0.5)
+- Crea un techo inclinado usando Cuñas
+- Añade una chimenea con Cilindros
 
 ---
 
 
-### 📝 Paso 4: El Sistema de Anclaje (Anchored) - Física en Roblox
+### 📝 Paso 4: El Sistema de Anclaje (Anclado) - Física en Roblox
 
 **Objetivo:** Entender cómo funciona la física en Roblox y cuándo anclar objetos.
 
@@ -561,12 +561,12 @@ En Roblox, todos los objetos tienen física realista por defecto. Esto significa
 - Los objetos pueden rodar, deslizarse y rebotar
 - Los objetos tienen masa y peso
 
-**Anchored = true** significa que el objeto está "pegado" en su lugar y ignora la física.
-**Anchored = false** significa que el objeto tiene física activa.
+**Anclado = verdadero** significa que el objeto está "pegado" en su lugar y ignora la física.
+**Anclado = falso** significa que el objeto tiene física activa.
 
 #### ¿Por Qué se Caen Mis Construcciones?
 
-Cuando creas una Part nueva, por defecto viene con **Anchored = false**. Si la colocas en el aire y presionas Play, caerá al suelo por la gravedad.
+Cuando creas una Part nueva, por defecto viene con **Anclado = falso**. Si la colocas en el aire y presionas Play, caerá al suelo por la gravedad.
 
 Esto es un problema para construcciones como:
 - Casas y edificios
@@ -581,12 +581,12 @@ Pero es útil para:
 
 #### Cómo Anclar un Objeto
 
-**Método 1: Usando Properties (Recomendado para principiantes)**
+**Método 1: Usando Propiedades (Recomendado para principiantes)**
 
 1. Selecciona la Part que quieres anclar
-2. Mira la ventana **Properties** (derecha abajo)
+2. Mira la ventana **Propiedades** (derecha abajo)
 3. Busca la sección **"Part"** (cerca del inicio)
-4. Encuentra la propiedad **"Anchored"**
+4. Encuentra la propiedad **"Anclado"**
 5. Verás una casilla de verificación
 6. Haz clic para marcarla ✓
 7. El objeto ahora está anclado
@@ -601,7 +601,7 @@ Pero es útil para:
 **Método 3: Anclar Múltiples Objetos**
 
 1. Selecciona varios objetos (mantén Ctrl y haz clic en cada uno)
-2. En Properties, marca **Anchored**
+2. En Propiedades, marca **Anclado**
 3. Todos los objetos seleccionados se anclarán a la vez
 4. Muy útil para anclar construcciones completas
 
@@ -611,23 +611,23 @@ Cuando seleccionas un objeto:
 - **Anclado**: El borde de selección es más grueso y sólido
 - **No anclado**: El borde es más delgado
 
-También puedes ver el estado en Properties.
+También puedes ver el estado en Propiedades.
 
 #### Otras Propiedades de Física Importantes
 
 Cuando trabajas con física, estas propiedades también son importantes:
 
-**CanCollide:**
-- **true**: Otros objetos chocan con este (sólido)
-- **false**: Otros objetos lo atraviesan (fantasma)
+**Puede colisionar:**
+- **verdadero**: Otros objetos chocan con este (sólido)
+- **falso**: Otros objetos lo atraviesan (fantasma)
 - Útil para efectos especiales o zonas invisibles
 
-**Massless:**
-- **true**: El objeto no tiene masa (no afecta física)
-- **false**: El objeto tiene masa según su tamaño y material
+**Sin masa:**
+- **verdadero**: El objeto no tiene masa (no afecta física)
+- **falso**: El objeto tiene masa según su tamaño y material
 - Útil para accesorios que no deben añadir peso
 
-**CustomPhysicalProperties:**
+**Propiedades físicas personalizadas:**
 - Permite ajustar densidad, fricción, elasticidad
 - Avanzado, no necesario para principiantes
 
@@ -639,10 +639,10 @@ Vamos a experimentar con la física de Roblox.
 
 **Experimento 1: La Caída Libre**
 
-1. Crea un Block nuevo
+1. Crea un Bloque nuevo
 2. Renómbralo: "BloqueGravedad"
-3. Usa Move para subirlo muy alto (Y = 50)
-4. Asegúrate que **Anchored = false** (sin marcar)
+3. Usa Mover para subirlo muy alto (Y = 50)
+4. Asegúrate que **Anclado = falso** (sin marcar)
 5. Presiona **F5** para probar el juego
 6. Observa: ¡El bloque cae al suelo!
 7. Presiona **Shift + F5** para detener

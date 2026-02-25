@@ -33,11 +33,11 @@ Instalar Roblox Studio y aprender a moverte por el mundo 3D.
    - Espera unos segundos mientras carga
 
 3. **Conocer la Interfaz:**
-   - **Viewport** (Centro): Es tu mundo 3D donde construyes
-   - **Explorer** (Derecha): Lista de todos los objetos en tu juego
-   - **Properties** (Derecha abajo): Detalles del objeto seleccionado
-   - **Toolbox** (Abajo): Modelos y recursos gratuitos
-   - **Home/Model/Test** (Arriba): Pestañas con herramientas
+   - **Ventana de visualización** (Centro): Es tu mundo 3D donde construyes
+   - **Explorador** (Derecha): Lista de todos los objetos en tu juego
+   - **Propiedades** (Derecha abajo): Detalles del objeto seleccionado
+   - **Caja de herramientas** (Abajo): Modelos y recursos gratuitos
+   - **Inicio/Modelo/Prueba** (Arriba): Pestañas con herramientas
 
 **Controles de Cámara (MUY IMPORTANTE):**
 - **W**: Mover hacia adelante
@@ -67,52 +67,52 @@ Las Parts son los bloques de construcción básicos en Roblox. Como piezas de LE
 
 **Crear tu primera Part (paso a paso):**
 
-1. Busca la pestaña **Home** en la parte superior (es la primera pestaña)
-2. En la sección "Insert" verás un botón que dice **Part** con una flecha pequeña ▼
+1. Busca la pestaña **Inicio** en la parte superior (es la primera pestaña)
+2. En la sección "Insertar" verás un botón que dice **Part** con una flecha pequeña ▼
 3. Haz clic en la flecha para ver las opciones:
-   - **Block**: Cubo/Bloque rectangular (el más común)
-   - **Sphere**: Esfera/Pelota perfecta
-   - **Cylinder**: Cilindro (como un tubo)
-   - **Wedge**: Rampa triangular (para hacer rampas)
-   - **CornerWedge**: Esquina triangular
+   - **Bloque**: Cubo/Bloque rectangular (el más común)
+   - **Esfera**: Esfera/Pelota perfecta
+   - **Cilindro**: Cilindro (como un tubo)
+   - **Cuña**: Rampa triangular (para hacer rampas)
+   - **Cuña de esquina**: Esquina triangular
    - **Part**: Bloque simple (opción por defecto)
 
-4. Haz clic en **Block** para empezar
+4. Haz clic en **Bloque** para empezar
 5. Aparecerá un bloque gris en el centro de tu pantalla
 6. Haz clic en él para seleccionarlo (verás un borde azul brillante alrededor)
 
-**Entender el Explorer:**
+**Entender el Explorador:**
 
-1. Mira la ventana **Explorer** a la derecha
-2. Busca **Workspace** (es donde están todos los objetos del mundo)
-3. Haz clic en la flechita ▶ junto a Workspace para expandirlo
+1. Mira la ventana **Explorador** a la derecha
+2. Busca **Espacio de trabajo** (es donde están todos los objetos del mundo)
+3. Haz clic en la flechita ▶ junto a Espacio de trabajo para expandirlo
 4. Verás tu Part listada como "Part"
-5. Si haces clic en "Part" en el Explorer, también se selecciona en el mundo
+5. Si haces clic en "Part" en el Explorador, también se selecciona en el mundo
 
 **Renombrar objetos (MUY IMPORTANTE):**
 
 1. Selecciona tu Part
-2. En la ventana **Properties** (abajo a la derecha), busca la primera propiedad: **Name**
+2. En la ventana **Propiedades** (abajo a la derecha), busca la primera propiedad: **Nombre**
 3. Haz clic en donde dice "Part" y cámbialo a "MiPrimerBloque"
 4. Presiona Enter
 5. Ahora es más fácil encontrarlo después
 
 **✏️ Ejercicio 2:** 
-- Crea 5 objetos diferentes: Block, Sphere, Cylinder, Wedge, CornerWedge
+- Crea 5 objetos diferentes: Bloque, Esfera, Cilindro, Cuña, Cuña de esquina
 - Renombra cada uno: "Bloque1", "Esfera1", "Cilindro1", etc.
 - Colócalos en fila sobre la plataforma verde
-- Practica seleccionándolos desde el Explorer
+- Practica seleccionándolos desde el Explorador
 
 ---
 
 ### Paso 3: Herramientas Básicas (Mover, Escalar, Rotar)
 
-**Herramienta Mover (Move) - La más importante:**
+**Herramienta Mover - La más importante:**
 
-**IMPORTANTE:** Si no ves las flechas de colores, presiona **Ctrl + 2** para activar Move.
+**IMPORTANTE:** Si no ves las flechas de colores, presiona **Ctrl + 2** para activar Mover.
 
 1. Selecciona cualquier Part haciendo clic en ella
-2. Presiona **Ctrl + 2** para activar la herramienta Move
+2. Presiona **Ctrl + 2** para activar la herramienta Mover
 3. Verás aparecer **3 flechas de colores** en el objeto:
    - **Flecha ROJA**: Mueve en el eje X (izquierda/derecha)
    - **Flecha VERDE**: Mueve en el eje Y (arriba/abajo)
@@ -138,9 +138,9 @@ Las Parts son los bloques de construcción básicos en Roblox. Como piezas de LE
    - Opciones: 0.2, 0.5, 1, 2, 4, 5 studs
    - Studs = unidades de medida en Roblox (1 stud ≈ 28cm)
 
-**Herramienta Escalar (Scale) - Cambiar tamaño:**
+**Herramienta Escalar - Cambiar tamaño:**
 
-1. En la pestaña **Home** o **Model**, busca el icono **Scale** (parece una caja con flechas hacia afuera)
+1. En la pestaña **Inicio** o **Modelo**, busca el icono **Escalar** (parece una caja con flechas hacia afuera)
 2. Haz clic en él
 3. Verás **6 puntos blancos** en las esquinas del objeto
 4. También verás **3 caras de colores** (rojo, verde, azul)
@@ -152,13 +152,13 @@ Las Parts son los bloques de construcción básicos en Roblox. Como piezas de LE
 
 6. **Escalar con números exactos:**
    - Selecciona el objeto
-   - En **Properties**, busca **Size**
+   - En **Propiedades**, busca **Tamaño**
    - Verás 3 números: X, Y, Z
    - Cámbialo manualmente (ejemplo: 10, 1, 10 para una plataforma plana)
 
-**Herramienta Rotar (Rotate) - Girar objetos:**
+**Herramienta Rotar - Girar objetos:**
 
-1. Busca el icono **Rotate** (parece una flecha circular)
+1. Busca el icono **Rotar** (parece una flecha circular)
 2. Haz clic en él
 3. Verás **3 círculos de colores** alrededor del objeto:
    - **Círculo ROJO**: Gira en el eje X
@@ -175,13 +175,13 @@ Las Parts son los bloques de construcción básicos en Roblox. Como piezas de LE
    - Cámbialo a 5°, 15°, 30°, 45°, 90° según necesites
 
 6. **Rotar con números exactos:**
-   - En **Properties**, busca **Orientation**
+   - En **Propiedades**, busca **Orientación**
    - Cambia los valores X, Y, Z manualmente
 
 **Atajos de teclado (para ir más rápido):**
-- **Ctrl + 2**: Activar herramienta Move
-- **Ctrl + 3**: Activar herramienta Scale
-- **Ctrl + 4**: Activar herramienta Rotate
+- **Ctrl + 2**: Activar herramienta Mover
+- **Ctrl + 3**: Activar herramienta Escalar
+- **Ctrl + 4**: Activar herramienta Rotar
 - **Ctrl + D**: Duplicar el objeto seleccionado
 - **Delete**: Borrar el objeto seleccionado
 - **Ctrl + Z**: Deshacer
@@ -219,7 +219,7 @@ En Roblox, los objetos tienen física real. Si no están anclados, ¡caen por la
 **Cómo anclar un objeto:**
 
 1. Selecciona la Part
-2. En la ventana **Properties** (Propiedades), busca **Anchored**
+2. En la ventana **Propiedades**, busca **Anclado**
 3. Marca la casilla ✅
 
 **Regla importante:** Ancla siempre tus construcciones para que no se caigan.
@@ -235,12 +235,12 @@ En Roblox, los objetos tienen física real. Si no están anclados, ¡caen por la
 **Cambiar el color:**
 
 1. Selecciona una Part
-2. En **Properties**, busca **Color**
+2. En **Propiedades**, busca **Color**
 3. Haz clic en el cuadro de color y elige tu favorito
 
 **Cambiar el material:**
 
-1. En **Properties**, busca **Material**
+1. En **Propiedades**, busca **Material**
 2. Prueba diferentes materiales:
    - **Neon**: Brilla en la oscuridad
    - **Wood**: Madera
@@ -252,14 +252,14 @@ En Roblox, los objetos tienen física real. Si no están anclados, ¡caen por la
 
 ---
 
-### Paso 6: La Toolbox (Caja de Herramientas)
+### Paso 6: La Caja de Herramientas
 
-**¿Qué es la Toolbox?**
+**¿Qué es la Caja de Herramientas?**
 Es una biblioteca gigante de modelos creados por otros usuarios que puedes usar gratis.
 
-**Cómo usar la Toolbox:**
+**Cómo usar la Caja de Herramientas:**
 
-1. Ve a **View** → **Toolbox** (o presiona Alt+T)
+1. Ve a **Vista** → **Caja de herramientas** (o presiona Alt+T)
 2. Busca algo, por ejemplo: "tree" (árbol)
 3. Haz clic en un modelo para insertarlo en tu mundo
 
@@ -280,11 +280,11 @@ Para mover varios objetos juntos, como si fueran uno solo.
 **Cómo crear un modelo:**
 
 1. Selecciona varias Parts (mantén Ctrl y haz clic en cada una)
-2. Clic derecho → **Group** (o Ctrl+G)
+2. Clic derecho → **Agrupar** (o Ctrl+G)
 3. ¡Ahora todas se mueven juntas!
 
 **Desagrupar:**
-- Clic derecho → **Ungroup** (Ctrl+U)
+- Clic derecho → **Desagrupar** (Ctrl+U)
 
 **✏️ Ejercicio 7:** Construye una mesa con silla:
 - Mesa: 1 bloque plano + 4 cilindros delgados (patas)
@@ -368,12 +368,42 @@ Para mover varios objetos juntos, como si fueran uno solo.
 
 ### Paso 11: Efectos Visuales (Particles)
 
+**¿Qué es una Part?**
+Una Part es un objeto 3D en Roblox. Es como un bloque de construcción. Puede ser un cubo, una esfera, un cilindro, etc. TODO lo que ves en Roblox está hecho de Parts.
+
+**Ejemplos de Parts:**
+- Un bloque gris = Part
+- Una pelota = Part con forma de esfera
+- Un palo = Part con forma de cilindro
+- Una pared = Part alargada
+
 **Añadir fuego a un objeto:**
 
-1. Selecciona una Part
-2. Haz clic en el **+** junto a la Part en Explorer
-3. Busca y añade **Fire**
-4. ¡Tu objeto está en llamas!
+**Paso 1: Crear una Part**
+1. Ve a la pestaña **Inicio** (arriba)
+2. Haz clic en el botón **Part** (verás un cubo gris)
+3. Aparecerá un bloque gris en tu mundo
+4. Haz clic en él para seleccionarlo (verás un borde azul)
+
+**Paso 2: Encontrar la Part en el Explorador**
+1. Mira la ventana **Explorador** (a la derecha)
+2. Busca **Espacio de trabajo** (Workspace)
+3. Haz clic en la flechita ▶ para abrirlo
+4. Verás tu **Part** en la lista
+
+**Paso 3: Añadir el efecto de fuego**
+1. Pon el cursor sobre la palabra **"Part"** en el Explorador
+2. Verás aparecer un símbolo **+** (más)
+3. Haz clic en el **+**
+4. Se abrirá una ventana con muchas opciones
+5. En la caja de búsqueda, escribe: **Fire**
+6. Haz clic en **Fire**
+7. ¡Tu objeto ahora tiene fuego! 🔥
+
+**Paso 4: Ver el fuego en acción**
+1. Presiona el botón **▶ Play** (arriba)
+2. Verás llamas naranjas saliendo del bloque
+3. Presiona **■ Stop** para volver a editar
 
 **Otros efectos:**
 
